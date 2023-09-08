@@ -5,7 +5,7 @@
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "rules": {
         "camelcase": "error",
-        "react/prop-types": "off",
+        // "react/prop-types": "off",
         "no-invalid-this": "error"
     },
     "parserOptions": {
