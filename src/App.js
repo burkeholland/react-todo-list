@@ -14,7 +14,7 @@ class App extends Component {
     this.deleteTodo = this.deleteTodo.bind(this);
   }
 
-  addTodo(todo) {
+  add_todo(todo) {
     this.setState(prevState => ({
       todos: [...prevState.todos, todo]
     }));
