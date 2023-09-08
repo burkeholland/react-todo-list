@@ -1,8 +1,13 @@
 {
     "rules": {
-        "semi": [
-            "error",
-            "never"
-        ]
+        // "semi": [
+        //     "error",
+        //     "never"
+        // ]
+        "camelcase": "error"
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020
     }
 }
